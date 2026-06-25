@@ -4,7 +4,7 @@
 
 - GitHub Profile: https://github.com/rlfnsl
 - Notion Portfolio: https://app.notion.com/p/0421d1336f4f4636b66fabd898b1761c?source=copy_link
-- GitHub Sample Repo: https://github.com/rlfnsl/wooseok-game-client-portfolio
+- GitHub Sample Repo: https://github.com/rlfnsl/protfolio
 
 ## Recommended Navigation
 
@@ -20,4 +20,3 @@
 - [RaidOne](projects/raidone.md)
 - [Demon Squad Global](projects/demon-squad-global.md)
 - [Metal Cardbot Dual Arena](projects/metal-cardbot-dual-arena.md)
-

@@ -5,13 +5,13 @@
 Recommended public repository:
 
 ```text
-https://github.com/rlfnsl/wooseok-game-client-portfolio
+https://github.com/rlfnsl/protfolio
 ```
 
 If the repository has not been created on GitHub yet, create it as an empty public repository first. Do not initialize it with a README because this local folder already has one.
 
 ```bash
-git remote add origin https://github.com/rlfnsl/wooseok-game-client-portfolio.git
+git remote add origin https://github.com/rlfnsl/protfolio.git
 git branch -M main
 git push -u origin main
 ```
@@ -33,4 +33,3 @@ Keep the PPT/PDF short and connect to:
 - Notion portfolio for project stories and videos
 - GitHub sample repo for architecture and code samples
 - GitHub profile for public activity
-
