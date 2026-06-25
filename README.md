@@ -1,47 +1,68 @@
-# Wooseok Choi - Game Client Portfolio Samples
+# Wooseok Choi - Game Client Portfolio
 
-Unity/C# game client portfolio samples reconstructed from production experience.
+Unity/C# game client portfolio repository.
 
-This repository is not a full commercial project. It contains sanitized sample code that demonstrates architecture and problem-solving areas from my game projects.
+This repository is a public-safe architecture and sample-code hub. Commercial Unity projects cannot be published as full source, so the code here is rewritten to show the same design intent without exposing private assets, server URLs, paid SDK keys, or production content.
+
+## Links
+
+- GitHub Profile: https://github.com/rlfnsl
+- Notion Portfolio: https://app.notion.com/p/0421d1336f4f4636b66fabd898b1761c?source=copy_link
+- PDF/PPT Portfolio: provided separately
 
 ## Focus Areas
 
-- Runtime asset loading abstraction for Addressables-based portfolio builds
-- Smooth loading progress presentation
-- Skill damage resolving and shared hit processing
-- Runtime skill behavior samples: lightning turret and stone bullet
-- Mobile optimization patterns using NonAlloc physics queries
-- Unity editor build automation sample
+- Mobile live-service client architecture
+- Runtime asset loading with Addressables abstraction
+- Loading progress and startup pipeline design
+- Skill manager, shared damage resolving, hit processing
+- Mobile optimization with NonAlloc physics patterns
+- Photon Fusion 2 multiplayer session and migration concepts
+- Steam multiplayer lobby/room flow
+- Arcade hardware integration with serial, RF card, and QR flow
+- Unity editor tooling for data import and custom builds
 
-## Main Portfolio
+## Main Projects
 
-- PDF portfolio: `TODO_PDF_URL`
-- Notion portfolio: `TODO_NOTION_URL`
-- Contact: `TODO_CONTACT`
-
-## Project Highlights
-
-| Project | Role | Contribution |
-| --- | --- | --- |
-| 내맘대로마법사 | Developer / Planner / Team Lead | Outgame systems, Addressables, data pipeline, skill system, VFX, build pipeline |
-| Dragon Arena | Main Developer | Photon Fusion 2 combat, AI objective flow, RaidOne codebase expansion |
-| RaidOne | Main Developer | 1v5 raid combat, Photon networking, Steam integration, data tools |
-| Demon Squad Global | Solo Maintenance / Global Response | SDK, ads, analytics, live ops features, optimization |
-| Metal Cardbot Dual Arena | Main Developer | Arcade hardware integration, RF/QR/serial/payment flow |
+| Project | Platform | Role | Public Documentation |
+| --- | --- | --- | --- |
+| 내맘대로마법사 | Mobile / Unity URP / Hack & Slash | Developer, Planner, Team Lead / about 70% | [Docs/projects/my-wizard.md](Docs/projects/my-wizard.md) |
+| Dragon Arena | Steam PC / 5v5 MOBA / Photon Fusion 2 | Main Developer / about 60% | [Docs/projects/dragon-arena.md](Docs/projects/dragon-arena.md) |
+| RaidOne | Steam PC / 1v5 Boss Raid / Photon Fusion 2 | Main Developer / about 60% | [Docs/projects/raidone.md](Docs/projects/raidone.md) |
+| Demon Squad Global | Mobile Idle RPG / Global LiveOps | Solo Maintenance and Global Response | [Docs/projects/demon-squad-global.md](Docs/projects/demon-squad-global.md) |
+| Metal Cardbot Dual Arena | Arcade Hardware Game | Main Developer / about 60% | [Docs/projects/metal-cardbot-dual-arena.md](Docs/projects/metal-cardbot-dual-arena.md) |
 
 ## Repository Structure
 
 ```text
+Docs/
+  architecture-overview.md
+  projects/
 Samples/
   RuntimeAssets/
   Loading/
   Skills/
   Optimization/
   EditorTools/
-Docs/
+  Networking/
+  Hardware/
+  LiveOps/
 ```
+
+## Sample Code
+
+The samples are intentionally small and focused. They are not copy-pasted production files.
+
+- `RuntimeAssets`: Addressables/Resources abstraction idea
+- `Loading`: smooth loading progress presenter
+- `Skills`: skill damage resolver, hit utility, stone bullet, lightning turret
+- `Optimization`: NonAlloc enemy separation pattern
+- `EditorTools`: Android custom build pipeline sample
+- `Networking`: Photon-style session recovery flow sample
+- `Hardware`: arcade card/QR/serial state flow sample
+- `LiveOps`: daily rewarded-ad reward grant flow sample
 
 ## Notes
 
-Commercial project assets and private service code are not included. Samples are rewritten to show the design intent and implementation style without exposing proprietary code.
+This repository is designed to be read together with the Notion and PPT/PDF portfolio. The PPT/PDF gives a fast overview, Notion contains project stories and video slots, and this repository provides code-level credibility.
 

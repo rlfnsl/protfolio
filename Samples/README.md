@@ -1,22 +1,23 @@
 # Samples
 
-## RuntimeAssets
+These samples are rewritten public-safe examples based on production patterns.
 
-`RuntimeAssetProviderSample` shows how the client can hide the selected runtime asset backend behind one API. The original portfolio build uses Addressables, while the code structure keeps resource loading logic isolated from gameplay and UI code.
+## Folders
 
-## Loading
+- `RuntimeAssets`: runtime asset loading abstraction
+- `Loading`: smoothed loading progress
+- `Skills`: skill damage, hit, turret, and stone bullet logic
+- `Optimization`: NonAlloc physics query pattern
+- `EditorTools`: custom build automation
+- `Networking`: Photon-style session recovery design
+- `Hardware`: arcade device state-machine design
+- `LiveOps`: daily rewarded-ad grant design
 
-`LoadingProgressPresenterSample` shows a rough but smooth loading progress UI that separates actual work stages from visible slider interpolation.
+## Reading Order
 
-## Skills
-
-The skill samples show how hit detection and damage calculation can be centralized so individual skills do not duplicate damage rules.
-
-## Optimization
-
-`EnemySeparationNonAllocSample` demonstrates a mobile-friendly physics query pattern: static buffers, staggered checks, and no per-frame `OverlapCircleAll` allocation.
-
-## EditorTools
-
-`AndroidBuildPipelineSample` shows build automation concepts: define symbols, version increment, APK/AAB switching, enabled scene collection, and build failure rollback.
+1. `RuntimeAssets/RuntimeAssetProviderSample.cs`
+2. `Loading/LoadingProgressPresenterSample.cs`
+3. `Skills/SkillDamageResolverSample.cs`
+4. `Networking/FusionSessionRecoverySample.cs`
+5. `Hardware/ArcadeCardDeviceFlowSample.cs`
 
