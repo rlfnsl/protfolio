@@ -18,8 +18,9 @@
 Thumbs.db
 .DS_Store
 
-# Portfolio local files
+# Large local exports
 *.pptx
-*.pdf
 *.zip
 
+# Keep portfolio PDF exports under docs.
+!docs/*.pdf
