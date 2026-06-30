@@ -9,7 +9,7 @@ Unity/C# 기반 게임 클라이언트 포트폴리오입니다. 프로젝트별
 | 프로젝트 | 플랫폼 | 역할 | 주요 코드 |
 | --- | --- | --- | --- |
 | [내맘대로마법사](projects/my-wizard) | Mobile / Unity URP | 클라이언트 구현 | Addressables, 암호화 데이터 로딩, 스킬/시너지, IAP/광고, Editor Tool |
-| [Dragon Arena](projects/dragon-arena) | Steam PC / Photon Fusion 2 | 클라이언트 구현 | 매칭, Host Migration, 네트워크 오브젝트 풀, 플레이어 로직, 스킬, Steam 연동 |
+| [Dragon Arena](projects/dragon-arena) | Steam PC / Photon Fusion 2 | 클라이언트 구현 | 매칭, Host Migration, 네트워크 오브젝트 풀, 플레이어/AI, 스킬, Steam 연동 |
 | [RaidOne](projects/raid-one) | Steam PC / Photon Fusion 2 | 클라이언트 구현 | 1 vs 5 보스 레이드, 재접속 대기, Host Migration, 히어로 전투 |
 | [메탈카드봇 듀얼아레나](projects/metal-cardbot-dual-arena) | Arcade / Unity | 클라이언트/하드웨어 연동 구현 | 시리얼 통신, RF 카드, QR/카드 배출, 데이터, 운영자 모드 |
 

@@ -1,6 +1,6 @@
 # Dragon Arena
 
-Steam PC 5v5 MOBA 프로젝트입니다. Photon Fusion 2 기반 매칭/대기방/Host Migration, 네트워크 오브젝트 풀, 플레이어 로직, 스킬, Steam 연동 코드를 모았습니다.
+Steam PC 5v5 MOBA 프로젝트입니다. Photon Fusion 2 기반 매칭/대기방/Host Migration, 네트워크 오브젝트 풀, 플레이어/AI, 스킬, Steam 연동 코드를 모았습니다.
 
 ## Source Scripts
 
@@ -12,7 +12,7 @@ Steam PC 5v5 MOBA 프로젝트입니다. Photon Fusion 2 기반 매칭/대기방
 ### Player / UI
 
 - [`source/player/Player_Hero.cs`](source/player/Player_Hero.cs): 플레이어 조작, 공격, 패링, 방어, 이동, 스킬 연동
-- [자동 플레이어 입력 로직](source/player/Player_AI.cs): 자동 플레이어 입력과 업그레이드 루틴
+- [`source/player/Player_AI.cs`](source/player/Player_AI.cs): AI 플레이어 입력과 업그레이드 루틴
 - [`source/ui/MinimapFogOfWar.cs`](source/ui/MinimapFogOfWar.cs): 캐릭터 주변만 밝히는 미니맵 Fog of War
 
 ### Skill System
