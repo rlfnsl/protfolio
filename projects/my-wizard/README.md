@@ -1,6 +1,6 @@
 # 내맘대로마법사
 
-모바일 뱀서라이크 Unity URP 프로젝트입니다. 현재 저장소에는 클라이언트 담당 범위에서 공개 가능한 데이터 로딩, 런타임 에셋 로딩, 스킬/시너지, 가챠/IAP/광고, Editor 자동화 스크립트만 정리했습니다.
+모바일 뱀서라이크 Unity URP 프로젝트입니다. 데이터 로딩, 런타임 에셋 로딩, 스킬/시너지, 가챠/IAP/광고, 에디터 툴 관련 클라이언트 코드를 모았습니다.
 
 ## Source Scripts
 
@@ -45,7 +45,7 @@
 - [`source/editor/RuntimeAssetCatalogBuilder.cs`](source/editor/RuntimeAssetCatalogBuilder.cs): Addressables 카탈로그 생성
 - [`source/editor/RuntimeAssetResourcesExporter.cs`](source/editor/RuntimeAssetResourcesExporter.cs): Addressables 리소스 내보내기
 - [`source/editor/GoogleSheetToPersistentEncryptor.cs`](source/editor/GoogleSheetToPersistentEncryptor.cs): Google Sheet 전체 탭 암호화 저장 Editor 툴
-- [`source/editor/CustomBuild.cs`](source/editor/CustomBuild.cs): Android 빌드 설정 자동화
+- [`source/editor/CustomBuild.cs`](source/editor/CustomBuild.cs): Android 빌드 설정 툴
 - [`source/editor/AutoAssignDrawer.cs`](source/editor/AutoAssignDrawer.cs): SerializeField 자동 할당 Editor Drawer
 
 ## 링크

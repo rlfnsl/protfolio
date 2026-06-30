@@ -1,6 +1,6 @@
 # 메탈카드봇 듀얼아레나
 
-아케이드 하드웨어 연동 Unity 프로젝트입니다. 현재 저장소에는 클라이언트/하드웨어 연동 담당 범위에서 공개 가능한 시리얼 통신, RF 카드 인식, QR/카드 배출, 데이터 로딩, 운영자 모드, 로컬라이징 스크립트만 정리했습니다.
+아케이드 하드웨어 연동 Unity 프로젝트입니다. 시리얼 통신, RF 카드 인식, QR/카드 배출, 데이터 로딩, 운영자 모드, 로컬라이징 코드를 모았습니다.
 
 ## Source Scripts
 
@@ -28,7 +28,7 @@
 - [`source/localization/LangText.cs`](source/localization/LangText.cs): 텍스트 로컬라이징 컴포넌트
 - [`source/admin/AdminManager.cs`](source/admin/AdminManager.cs): 운영자 모드와 점검/설정 UI
 - [`source/intro/IntroManager.cs`](source/intro/IntroManager.cs): 인트로 흐름 제어
-- [`source/editor/CustomBuild.cs`](source/editor/CustomBuild.cs): 커스텀 빌드 자동화
+- [`source/editor/CustomBuild.cs`](source/editor/CustomBuild.cs): 커스텀 빌드 설정 툴
 
 ## 링크
 

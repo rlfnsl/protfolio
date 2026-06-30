@@ -1,6 +1,6 @@
 # Dragon Arena
 
-Steam PC 5v5 MOBA 프로젝트입니다. 현재 저장소에는 클라이언트 담당 범위에서 공개 가능한 Photon Fusion 2 기반 매칭, 대기방, Host Migration, 네트워크 오브젝트 풀, 플레이어/AI, 스킬 시스템, Steam 연동 스크립트만 정리했습니다.
+Steam PC 5v5 MOBA 프로젝트입니다. Photon Fusion 2 기반 매칭/대기방/Host Migration, 네트워크 오브젝트 풀, 플레이어 로직, 스킬, Steam 연동 코드를 모았습니다.
 
 ## Source Scripts
 
@@ -12,7 +12,7 @@ Steam PC 5v5 MOBA 프로젝트입니다. 현재 저장소에는 클라이언트 
 ### Player / UI
 
 - [`source/player/Player_Hero.cs`](source/player/Player_Hero.cs): 플레이어 조작, 공격, 패링, 방어, 이동, 스킬 연동
-- [`source/player/Player_AI.cs`](source/player/Player_AI.cs): AI 플레이어 입력과 업그레이드 루틴
+- [자동 플레이어 입력 로직](source/player/Player_AI.cs): 자동 플레이어 입력과 업그레이드 루틴
 - [`source/ui/MinimapFogOfWar.cs`](source/ui/MinimapFogOfWar.cs): 캐릭터 주변만 밝히는 미니맵 Fog of War
 
 ### Skill System
@@ -27,7 +27,7 @@ Steam PC 5v5 MOBA 프로젝트입니다. 현재 저장소에는 클라이언트 
 
 ### Editor / Build Tools
 
-- [`source/editor/BuildTool.cs`](source/editor/BuildTool.cs): 개발/라이브 빌드 설정 자동화
+- [`source/editor/BuildTool.cs`](source/editor/BuildTool.cs): 개발/라이브 빌드 설정 툴
 - [`source/editor/SteamBuild.cs`](source/editor/SteamBuild.cs): Steam 빌드와 app id 파일 갱신
 - [`source/editor/StructFromCSVGenerator.cs`](source/editor/StructFromCSVGenerator.cs): Google Sheet TSV 기반 구조체/바이너리 생성 툴
 - [`source/editor/AutoAssignDrawer.cs`](source/editor/AutoAssignDrawer.cs): SerializeField 자동 할당 Editor Drawer
