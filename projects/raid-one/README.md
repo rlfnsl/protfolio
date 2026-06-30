@@ -1,6 +1,6 @@
 # RaidOne
 
-Steam PC 1 vs 5 온라인 보스 레이드 프로젝트입니다. Photon Fusion 2 기반 세션 유지, Host Migration, 재접속 대기, 오류 복원, 히어로 전투 흐름을 구현했습니다.
+Steam PC 1 vs 5 온라인 보스 레이드 프로젝트입니다. 현재 저장소에는 클라이언트 담당 범위에서 공개 가능한 Photon Fusion 2 세션 유지, Host Migration, 재접속 대기, 오류 복원, 히어로 전투 흐름 스크립트만 정리했습니다.
 
 ## Source Scripts
 

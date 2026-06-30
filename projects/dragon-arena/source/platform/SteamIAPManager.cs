@@ -147,7 +147,7 @@ public class SteamIAPManager : Singleton<SteamIAPManager>
 
     private string BuildYourBackendPaymentUrl(string orderId, CoinPack pack)
     {
-        return $"https://your.backend/pay?order={orderId}&sku={pack.packId}&qty=1";
+        return $"<REDACTED_STEAM_IAP_URL>?order={orderId}&sku={pack.packId}&qty=1";
     }
 
     // 스팀 결제 승인 콜백

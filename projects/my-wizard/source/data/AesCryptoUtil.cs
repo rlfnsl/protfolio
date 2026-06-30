@@ -5,7 +5,7 @@ using System.Text;
 
 public static class AesCryptoUtil
 {
-    static readonly string Password = "CHANGE_ME";
+    static readonly string Password = "<REDACTED_CRYPTO_PASSWORD>";
 
     public static byte[] EncryptStringToBytes(string plainText)
     {

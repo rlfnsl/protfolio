@@ -1,6 +1,6 @@
 # Dragon Arena
 
-Steam PC 5v5 MOBA 프로젝트입니다. RaidOne 코드베이스를 확장해 Photon Fusion 2 기반 매칭, 대기방, Host Migration, 네트워크 오브젝트 풀, 플레이어/AI, 스킬 시스템, Steam 연동을 구현했습니다.
+Steam PC 5v5 MOBA 프로젝트입니다. 현재 저장소에는 클라이언트 담당 범위에서 공개 가능한 Photon Fusion 2 기반 매칭, 대기방, Host Migration, 네트워크 오브젝트 풀, 플레이어/AI, 스킬 시스템, Steam 연동 스크립트만 정리했습니다.
 
 ## Source Scripts
 

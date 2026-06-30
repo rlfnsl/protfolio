@@ -1,6 +1,6 @@
-# 이멋대로 마법사
+# 내맘대로마법사
 
-모바일 뱀서라이크 Unity URP 프로젝트입니다. 개발과 기획을 함께 맡아 Addressables/Resources 기반 런타임 에셋 로딩, Google Sheet 데이터 파이프라인, 암호화 저장, 스킬/시너지 구조, 가챠/IAP/광고, Editor 자동화를 구현했습니다.
+모바일 뱀서라이크 Unity URP 프로젝트입니다. 현재 저장소에는 클라이언트 담당 범위에서 공개 가능한 데이터 로딩, 런타임 에셋 로딩, 스킬/시너지, 가챠/IAP/광고, Editor 자동화 스크립트만 정리했습니다.
 
 ## Source Scripts
 
@@ -19,7 +19,6 @@
 
 - [`source/skills/SkillManager_WS.cs`](source/skills/SkillManager_WS.cs): 스킬 생성, 런타임 로드, 오브젝트 풀, 시너지 스킬 관리
 - [`source/skills/SkillDamageResolver.cs`](source/skills/SkillDamageResolver.cs): 스킬 공통 대미지 계산
-- [`source/skills/StandaloneRuntimeSkill.cs`](source/skills/StandaloneRuntimeSkill.cs): 런타임 스킬 대미지 처리와 비주얼/투사체형 스킬 처리
 - [`source/skills/SkillInterFace.cs`](source/skills/SkillInterFace.cs): 스킬 공통 인터페이스와 기본 매핑
 - [`source/skills/HitCollider.cs`](source/skills/HitCollider.cs): 스킬 히트 판정 콜라이더
 - [`source/skills/ObjectPool_WS.cs`](source/skills/ObjectPool_WS.cs): 스킬 오브젝트 풀
@@ -47,7 +46,6 @@
 - [`source/editor/RuntimeAssetResourcesExporter.cs`](source/editor/RuntimeAssetResourcesExporter.cs): Addressables 리소스 내보내기
 - [`source/editor/GoogleSheetToPersistentEncryptor.cs`](source/editor/GoogleSheetToPersistentEncryptor.cs): Google Sheet 전체 탭 암호화 저장 Editor 툴
 - [`source/editor/CustomBuild.cs`](source/editor/CustomBuild.cs): Android 빌드 설정 자동화
-- [`source/editor/CodexAndroidBuild.cs`](source/editor/CodexAndroidBuild.cs): CLI 기반 Android 빌드 보조
 - [`source/editor/AutoAssignDrawer.cs`](source/editor/AutoAssignDrawer.cs): SerializeField 자동 할당 Editor Drawer
 
 ## 링크
